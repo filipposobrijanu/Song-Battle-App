@@ -13,6 +13,7 @@ A **web-based song-ranking application** where users participate in a head-to-he
 - **Bootstrap 5** for responsive UI
 - **VS Code** (development IDE)
 
+![screenshot](Images/2.PNG)
 ---
 
 ## 📄 License
