@@ -1,6 +1,6 @@
 # Yeat Song Battle App
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://song-battle-app.netlify.app/))
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://song-battle-app.netlify.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 A web-based, interactive song-ranking application that pits tracks from Yeat’s discography against each other in a head-to-head voting format. Through iterative rounds of voting, the system dynamically narrows down the selections to crown a definitive fan-favorite track.
