@@ -1,35 +1,64 @@
-# Yeat Song Battle App
+<h1 align="center">Yeat Song Battle App</h1>
+<h3 align="center">Tournament-Style Interactive Track Ranking Platform</h3>
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge)](https://song-battle-app.netlify.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<p align="center">
+  A web-based, interactive song-ranking application that pits tracks from Yeat’s discography against each other in a head-to-head voting format. Through iterative rounds of tournament-style voting, the system dynamically narrows down selections to crown a definitive fan-favorite track.
+</p>
 
-A web-based, interactive song-ranking application that pits tracks from Yeat’s discography against each other in a head-to-head voting format. Through iterative rounds of voting, the system dynamically narrows down the selections to crown a definitive fan-favorite track.
+<p align="center">
+  <a href="https://song-battle-app.netlify.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-View_Project-success?style=for-the-badge" alt="Live Demo" />
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License" />
+  </a>
+</p>
 
-![Song Battle App Screenshot](Images/1.PNG)
+---
 
-## ✨ Core Features
+### ✨ Core Features
 
-*   **Head-to-Head Matchups:** Dynamically serves two randomly selected tracks (spanning albums, EPs, and singles) for the user to vote on.
-*   **Spotify API Integration:** Fetches accurate, up-to-date track data directly from Spotify.
-*   **Real-Time State Tracking:** Progressively filters and tracks winning songs through tournament-style brackets.
-*   **Responsive UI:** Fully optimized for both desktop and mobile viewing using Bootstrap 5.
+* **Bracket-Based Head-to-Head Matchups:** Algorithmic matchup scheduling that dynamically serves pairs of tracks from a pre-compiled discography array for rapid user evaluation and selection.
+* **Third-Party Metadata Integration:** Interacts with external Web APIs to ensure precise tracking details, structural consistency, and metadata synchronization across media collections.
+* **Deterministic State Management:** Built-in client-side state machine that keeps track of active rounds, advancing winners through a logical tournament bracket tree.
+* **Responsive Layout & Media Queries:** Responsive viewport breakpoints designed with Bootstrap 5 to guarantee flawless rendering across extreme mobile screens and high-resolution desktop layouts.
 
-## 🛠️ Built With
+---
 
+### 🛠️ Tech Stack
+
+**Client Architecture & Logic**
 <p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+</p>
+
+**Presentation & Services**
+<p align="left">
   <img src="https://img.shields.io/badge/Bootstrap_5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap 5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/Spotify_API-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify API" />
 </p>
 
-![Secondary App View](Images/2.PNG)
+---
 
-## 🚀 Getting Started (Local Development)
+### 📸 Application Showcase
 
-To run this project locally on your machine, follow these steps:
+<p align="center">
+  <img src="Images/1.PNG" width="48%" />
+  <img src="Images/2.PNG" width="48%" />
+</p>
 
-1. **Clone the repository:**
+---
+
+### 🚀 Getting Started (Local Development)
+
+**1. Clone the repository:**
 ```bash
-   git clone [https://github.com/filipposobrijanu/Song-Battle-App.git](https://github.com/filipposobrijanu/Song-Battle-App.git)
+git clone https://github.com/filipposobrijanu/Song-Battle-App.git
+cd Song-Battle-App
+```
+
+**2. Local Deployment Workflow:**
+* Because this is a static frontend deployment utilizing client-side scripts, you can run a local development preview instantly.
+* Open the `index.html` file directly in your preferred modern web browser, or launch a development environment extension like **Live Server** in VS Code to view changes in real-time.
